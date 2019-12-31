@@ -1,0 +1,3 @@
+Key,Source,Context,UsedInMainMenu,NoTranslate,english,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+solarbankSchematic,blocks,Electricity,,,Solar Bank Schematic,,,,,,,,,,,,

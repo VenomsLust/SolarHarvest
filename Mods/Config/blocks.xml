@@ -1,0 +1,12 @@
+<configs>
+
+	<!-- Add a chance to get Solar Cells from the broken Solar Panel -->
+	<append xpath="/blocks/block[@name='cntCollapsedSolarbank']">
+		<drop event="Harvest" name="solarCell" count="1" prob="0.25" tag="salvageHarvest"/>
+	</append>
+	
+	<!-- Add the 'unlocked by' attribute to the solar bank recipe -->
+	<append xpath="/blocks/block[@name='solarbank']">
+		<property name="UnlockedBy" value="solarbankSchematic"/>
+	</append>
+</configs>

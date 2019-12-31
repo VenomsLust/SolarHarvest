@@ -1,0 +1,7 @@
+<configs>
+
+	<!-- Add the solar bank schematic to the loot table -->
+	<append xpath="lootcontainers/lootgroup[@name='schematicsElectrical']">
+		<item name="solarbankSchematic" />
+	</append>
+</configs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="VenomsLust's Solar Harvest" />
+		<Description value="Adds a small chance to acquire solar cells from broken solar arrays." />
+		<Author value="VenomsLust" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>

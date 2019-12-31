@@ -1,0 +1,19 @@
+<configs>
+	
+	<!-- Set the Solar Cell to be sellable to Traders -->
+	<set xpath="items/item[@name='solarCell']/property[@name='SellableToTrader']/@value">true</set>
+	
+	<!-- Add a solar bank schematic -->
+	<append xpath="items">
+		<item name="solarbankSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="solarbank" />
+			<property name="unlocks" value="solarbank" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="solarbank" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+	</append>
+</configs>
